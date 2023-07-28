@@ -5,13 +5,15 @@
 
 .main{
     width: 100%;
-     background: linear-gradient(to top, rgba(0,0,0,0.7)70%,rgba(0,0,0,0.7)70%), url(pgb.jpeg);
+     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(maralem\ school.jpg);
     background-position: center;
+    background-size: cover;
     height: 109vh;
     
+  
 }
 .navbar{
-    width: 100%;
+    width: 1200px;
     height: 75px;
     margin: auto;
 }
@@ -21,7 +23,7 @@
     height: 70px;
 }
 .logo{
-    color: orange;
+    color: #ff7200;
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
@@ -46,16 +48,17 @@ ul li{
     margin-left: 62px;
     margin-top: 27px;
     font-size: 14px;
-    color: #fff;
+    /* color: #fff;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out; */
     
 }
 
 ul li a{
-    
+    text-decoration: none;
+    color: #fff;
     
 }
  ul li:hover{
